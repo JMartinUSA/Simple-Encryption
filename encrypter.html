@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+   <head>
+      <title>Encryption Software</title>
+      <link href="encrypter.css" rel="stylesheet" />
+   </head>
+
+   <body>
+    <div class="container">
+
+    	<div id="topBorder"></div>
+
+      <div id="content">
+
+        <div id="encrypt">
+          Key:<input id="key" type="text"/><input type="button" value="Encrypt" onclick="field(), Encrypt()"/><input type="button" value="Decrypt" onclick= "field(), Decrypt()"/>
+        </div>
+        
+        <!--  <div id="decrypt">
+          Decryption Key:<input id="inputDecryption" type="text"/><input type="button" value="Decrypt" onclick= "field(), Decrypt()"/>
+        </div> -->
+        <div id="input">
+          <input id="inputTextToBeEncrypted" type="text" value="Paste your text here!"/>
+        <div id="output"></div>
+    	    
+      </div>
+      <div class="bottomBorder"></div>
+
+    </div>
+
+       <SCRIPT src="encrypterClean.js"></SCRIPT> 
+   </body>
+
+</html>

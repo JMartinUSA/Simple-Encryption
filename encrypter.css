@@ -1,0 +1,39 @@
+.container{
+	background:black;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 600px;
+	width:800px;
+}
+
+#topBorder{
+	height:100px;
+}
+
+#encrypt{
+	background:white;
+	border:solid black 1px;
+}
+#inputEncrypt{
+	margin:3px;
+}
+#decrypt{
+	background:white;
+	border:solid black 1px;
+}
+#inputDecrypt{
+	margin:3px;
+}
+#input{
+	background: white;
+	border-bottom:solid black 1px;
+	border-top:solid black 1px;
+}
+#inputT{
+	margin:0px;
+	width:796px;
+}
+#output{
+	background-color: red;
+	padding:7px;
+}
