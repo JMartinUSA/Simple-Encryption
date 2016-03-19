@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "simple.encryption"
+        versionCode = "10" 
+        version     = "1.0.0" >
+        
+    <name>Simple Encryption</name>
+    
+    <description>
+      A simple text encryption that anyone can use.
+    </description>
+    
+    
+    <preference name="permissions" value="none"/>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <icon src="icon.png" />
+
+    </widget>
