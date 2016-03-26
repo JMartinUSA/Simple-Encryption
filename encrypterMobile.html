@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+   <head>
+      <title>Encryption Software</title>
+      <link href="encrypterAndroid.css" rel="stylesheet" />
+   </head>
+
+   <body>
+    <div class="container">
+
+    	<div id="topBorder"></div>
+
+      <div class="content">
+
+        <div id="input">
+          <div id="keyInput">
+            Key:<input id="key" value="Enter key here!" type="text"/><input class="button" type="button" value="Encrypt" onclick="field(), Encrypt()"/><input class="button" type="button" value="Decrypt" onclick= "field(), Decrypt()"/>
+          </div>
+            
+            
+            <!--  <div id="decrypt">
+              Decryption Key:<input id="inputDecryption" type="text"/><input type="button" value="Decrypt" onclick= "field(), Decrypt()"/>
+            </div> -->
+          <div id="textInput">  
+            Text:<input id="inputTextToBeEncrypted" type="text" value="Paste your text here!"/><input class="button" type="button" value="Clear" onclick="reset()"/>
+            <div id="output"></div>
+          </div>
+        
+    	    
+      </div>
+      <div class="bottomBorder"></div>
+
+    </div>
+
+       <SCRIPT src="encrypterClean.js"></SCRIPT> 
+   </body>
+
+</html>
