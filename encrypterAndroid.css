@@ -7,7 +7,7 @@ body{
 
 }
 #topBorder{
-	height:15%;
+	height:30px;
 }
 #input{
 	background:white;
@@ -23,4 +23,6 @@ body{
 #output{
 	word-wrap:break-word;
 }
-
+.bottomBorder{
+	height: 30px;
+}
